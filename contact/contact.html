@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kontakt Form</title>
+</head>
+<body>
+
+    <section class="contact-section" id="contact">
+        <header class="contact-section-header">
+            <h2>Kontakt</h2>
+            <p>Nehmen Sie Kontakt mit mir auf!</p>
+        </header>
+
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Nachricht</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Nachricht senden</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__copy">&#169; 2024. Alle rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
